@@ -1,21 +1,25 @@
 <!doctype html>
 <html lang="en">
     <head>
+      <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             body {background-color:black;}
             h1   {color: powderblue; font-size: 40px;text-align: center;font-family: monospace ;}
             h2   {color: coral; font-size: 30px;text-align: center; font-family:monospace;}
             p    {color:antiquewhite;font-size:20px; font-family:monospace;}
-            table { font-size:larger; text-align: center; color:bisque; font-family: monospace; width: 1500px; table-layout: fixed;}
-            td    {text-align: center; column-rule-color: beige; color:cadetblue; font-family: monospace;}
-            th    {text-align: center; column-rule-color: beige; color:turquoise; font-family: monospace;}
+            table { font-size:larger; text-align: center; color:bisque; font-family: monospace; width: 1500px; table-layout: fixed;border-radius: 15px; border-style: hidden;border-spacing:13px;}
+            td    {text-align: center; column-rule-color: beige; color:rgb(245, 241, 241); font-family: monospace; border-radius: 15px ;border-style: dashed;}
+            th    {text-align: center; column-rule-color: beige; color:rgb(252, 252, 252); font-family: monospace;border-radius: 50px;border-style: dashed; }
+            td:hover {background-color: rgb(7, 87, 27);}
+            tr:nth-child(even) {
+              background-color: rgb(19, 189, 241);
+            }
             a    {color:blanchedalmond;}
             table.center {
                 margin-left: auto; 
                 margin-right: auto;}
             </style>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title >III EEE B</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico">
     </head>
@@ -24,24 +28,24 @@
         <img src="EEE.png" width="100px" height="100px" alt="EEE" >
         <h1>Electrical and Electronics Engineering</h1>
         <h2>Class Time-Table</h2>
-        <p>This is the weekly class schedule of III EEE - B</p>
+        
         <br>
         <table border="2" cellspacing="0" class="center">
             <tbody>
             <tr> 
-              <th>Days</th>
-              <th>I Hour</th>
-              <th>II Hour</th>
+              <th bgcolor="cadetblue">Days</th>
+              <th bgcolor="cadetblue">I Hour</th>
+              <th bgcolor="cadetblue">II Hour</th>
               <th rowspan="7">Tea Break</th>
-              <th>III Hour</th>
-              <th>IV Hour </th>
+              <th bgcolor="cadetblue">III Hour</th>
+              <th bgcolor="cadetblue">IV Hour </th>
               <th rowspan="7">Lunch Break</th>
-              <th>V Hour</th>
-              <th>VI Hour</th>
-              <th>VII Hour</th>
+              <th bgcolor="cadetblue">V Hour</th>
+              <th bgcolor="cadetblue">VI Hour</th>
+              <th bgcolor="cadetblue">VII Hour</th>
             </tr>
             <tr>
-              <td>Monday</td>
+              <td >Monday</td>
               <td>Control Systems</td>
               <td>Mobile Application Development</td>
             
